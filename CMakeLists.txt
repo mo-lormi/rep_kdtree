@@ -1,6 +1,6 @@
 
 #
-# last modified: 28.05.26
+# last modified: 10.06.26
 #
 
 #--
@@ -12,8 +12,8 @@ cmake_minimum_required(VERSION 3.26.0)
 
 project(rep_kdtree
         VERSION 1.0
-        DESCRIPTION "kd-tree method, nanoflann library"
-	LANGUAGES C CXX)
+        DESCRIPTION "k-d tree method, a repository for tests, examples, and templates"
+        LANGUAGES C CXX)
 
 find_package(nanoflann)
       
