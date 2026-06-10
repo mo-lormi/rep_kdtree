@@ -5,4 +5,4 @@
 
 #--
 
-export NANOFLANN_INCLUDE_DIR=<path>
+export NANOFLANN_INCLUDE_DIR=<root_dir>/nanoflann/nanoflann_src/include
