@@ -1,0 +1,9 @@
+
+//
+// last modified: 28.05.26
+//
+
+//--
+
+#define REP_KDTREE_VERSION_MAJOR @rep_kdtree_VERSION_MAJOR@
+#define REP_KDTREE_VERSION_MINOR @rep_kdtree_VERSION_MINOR@
