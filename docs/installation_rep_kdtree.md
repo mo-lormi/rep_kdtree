@@ -2,6 +2,7 @@
 # [rep_kdtree]
 
 [installation]
+<br>
 
 ```bash
 $ cd <root_dir>
@@ -36,6 +37,7 @@ $ source setup_env_sw_dev.sh
 <br>
 
 ---
+<br>
 
 to show the list of the tests ...
 ```bash
@@ -57,5 +59,5 @@ $ ctest -N -VV -R <test name>
 
 the log files can be found in ...
 ```bash
-<root_dir>/rep_kdtreebuild/Testing/Temporary
+<root_dir>/rep_kdtree/build/Testing/Temporary
 ```
