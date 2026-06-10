@@ -3,6 +3,8 @@
 
 [installation]
 
+<br>
+
 ```bash
 $ cd <root_dir>
 $ mkdir nanoflann
