@@ -83,10 +83,10 @@ void test_02() {
 
   std::cout << "\n[KNN search]" << std::endl;
   std::cout << "query point (reference point): "
-	    << query_point[0] << ", " << query_point[1] << ", " << query_point[2]
+            << query_point[0] << ", " << query_point[1] << ", " << query_point[2]
             << "\nno. of nearest neighbors = " << no_nneighbors
             << "\nindex of the nearest neighbor = " << idx_nn
-	    << "\nsquared distance = " << dist_squared << "\n" << std::endl;
+            << "\nsquared distance = " << dist_squared << "\n" << std::endl;
 
 }
 

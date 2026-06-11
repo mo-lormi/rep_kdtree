@@ -116,10 +116,10 @@ void test_01() {
 
   std::cout << "\n[KNN search]" << std::endl;
   std::cout << "query point (reference point): "
-	    << query_point[0] << ", " << query_point[1]
+            << query_point[0] << ", " << query_point[1]
             << "\nno. of nearest neighbors = " << no_nneighbors
             << "\nindex of the nearest neighbor = " << idx_nn
-	    << "\nsquared distance = " << dist_squared << "\n" << std::endl;
+            << "\nsquared distance = " << dist_squared << "\n" << std::endl;
 }
 
 
@@ -165,10 +165,10 @@ void test_02() {
 
   std::cout << "\n[KNN search]" << std::endl;
   std::cout << "query point (reference point): "
-	    << query_point[0] << ", " << query_point[1]
+            << query_point[0] << ", " << query_point[1]
             << "\nno. of nearest neighbors = " << no_nneighbors
             << "\nindex of the nearest neighbor = " << idx_nn
-	    << "\nsquared distance = " << dist_squared << "\n" << std::endl;
+            << "\nsquared distance = " << dist_squared << "\n" << std::endl;
 }
 
 
@@ -209,16 +209,16 @@ void test_03() {
   std::vector<float> dists_squared(no_nneighbors);
   
   no_nneighbors = index.knnSearch(&query_point[0],
-				  no_nneighbors,
-				  &idxs_nn[0],
-				  &dists_squared[0]);
+                                  no_nneighbors,
+                                  &idxs_nn[0],
+                                  &dists_squared[0]);
 
   idxs_nn.resize(no_nneighbors);
   dists_squared.resize(no_nneighbors);
-	
+        
   std::cout << "\n[KNN search]" << std::endl;
   std::cout << "query point (reference point): "
-	    << query_point[0] << ", " << query_point[1]
+            << query_point[0] << ", " << query_point[1]
             << "\nno. of nearest neighbors = " << no_nneighbors << std::endl;
   std::cout << "indeces of the nearest neighbor and squared distances = " << std::endl;
   for (size_t i = 0; i < no_nneighbors; i++) {
