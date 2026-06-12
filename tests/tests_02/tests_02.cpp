@@ -1,6 +1,6 @@
 
 //
-// last modified: 09.06.26
+// last modified: 12.06.26
 //
 
 //--
@@ -114,12 +114,13 @@ void test_01() {
   resultSet.init(&idx_nn, &dist_squared);
   index.findNeighbors(resultSet, &query_point[0]);
 
-  std::cout << "\n[KNN search]" << std::endl;
+  std::cout << "\n++ KNN search" << std::endl;
   std::cout << "query point (reference point): "
             << query_point[0] << ", " << query_point[1]
-            << "\nno. of nearest neighbors = " << no_nneighbors
-            << "\nindex of the nearest neighbor = " << idx_nn
-            << "\nsquared distance = " << dist_squared << "\n" << std::endl;
+            << "\nno. of nearest neighbors = " << no_nneighbors << std::endl;
+  std::cout << "nearest neighbors [index; squared distance]: " << std::endl;
+  std::cout << idx_nn << "; " << dist_squared << "\n" << std::endl;
+
 }
 
 
@@ -163,12 +164,13 @@ void test_02() {
   resultSet.init(&idx_nn, &dist_squared);
   index.findNeighbors(resultSet, &query_point[0]);
 
-  std::cout << "\n[KNN search]" << std::endl;
+  std::cout << "\n++ KNN search" << std::endl;
   std::cout << "query point (reference point): "
             << query_point[0] << ", " << query_point[1]
-            << "\nno. of nearest neighbors = " << no_nneighbors
-            << "\nindex of the nearest neighbor = " << idx_nn
-            << "\nsquared distance = " << dist_squared << "\n" << std::endl;
+            << "\nno. of nearest neighbors = " << no_nneighbors << std::endl;
+  std::cout << "nearest neighbors [index; squared distance]: " << std::endl;
+  std::cout << idx_nn << "; " << dist_squared << "\n" << std::endl;
+
 }
 
 
@@ -215,15 +217,16 @@ void test_03() {
 
   idxs_nn.resize(no_nneighbors);
   dists_squared.resize(no_nneighbors);
-        
-  std::cout << "\n[KNN search]" << std::endl;
+
+  std::cout << "\n++ KNN search" << std::endl;
   std::cout << "query point (reference point): "
             << query_point[0] << ", " << query_point[1]
             << "\nno. of nearest neighbors = " << no_nneighbors << std::endl;
-  std::cout << "indeces of the nearest neighbor and squared distances = " << std::endl;
+  std::cout << "nearest neighbors [index; squared distance]: " << std::endl;
   for (size_t i = 0; i < no_nneighbors; i++) {
-    std::cout << idxs_nn[i] << ", " << dists_squared[i] << std::endl;
+    std::cout << idxs_nn[i] << "; " << dists_squared[i] << std::endl;
   }
+  std::cout << std::endl;
   
 }
 
