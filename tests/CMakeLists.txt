@@ -1,6 +1,6 @@
 
 #
-# last modified: 01.06.26
+# last modified: 11.06.26
 #
 
 #--
@@ -9,6 +9,7 @@ enable_testing()
 
 add_subdirectory(tests_01)
 add_subdirectory(tests_02)
+add_subdirectory(tests_03)
 
 
 #--
@@ -31,3 +32,6 @@ add_test(NAME    bt01
 
 add_test(NAME    bt02
          COMMAND tests02)
+
+add_test(NAME    bt03
+         COMMAND tests03)
