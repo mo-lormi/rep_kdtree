@@ -55,7 +55,7 @@ $ ctest -VV
 to run a test ...
 ```bash
 $ cd <root_dir>/rep_kdtree/build
-$ ctest -N -VV -R <test name>
+$ ctest -VV -R <test name>
 ```
 
 the log files can be found in ...
