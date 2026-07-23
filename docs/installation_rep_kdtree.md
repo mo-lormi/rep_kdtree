@@ -27,7 +27,7 @@ $ cmake --build .
 
 ```bash
 $ cd <root_dir>/rep_kdtree/build
-$ cmake install
+$ make install
 ```
 
 ```bash
