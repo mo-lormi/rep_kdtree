@@ -1,12 +1,12 @@
 
 //
-// last modified: 29.05.26
+// last modified: 19.08.26
 //
 
 //--
 
-#ifndef REP_KDTREE_UTILS_H
-#define REP_KDTREE_UTILS_H
+#ifndef REP_KDTREE_UTILS_HPP
+#define REP_KDTREE_UTILS_HPP
 
 
 #include <vector>
@@ -40,4 +40,4 @@ void displayPointCloud(PointCloud<T>& pc, const size_t no_cpoints) {
 }
 
 
-#endif /* REP_KDTREE_UTILS_H */
+#endif /* REP_KDTREE_UTILS_HPP */

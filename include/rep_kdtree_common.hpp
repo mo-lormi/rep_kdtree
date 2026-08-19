@@ -1,12 +1,12 @@
 
 //
-// last modified: 29.05.26
+// last modified: 19.08.26
 //
 
 //--
 
-#ifndef REP_KDTREE_COMMON_H
-#define REP_KDTREE_COMMON_H
+#ifndef REP_KDTREE_COMMON_HPP
+#define REP_KDTREE_COMMON_HPP
 
 
 #include <cstdlib>
@@ -15,4 +15,4 @@
 #include <stdexcept>
 
 
-#endif /* REP_KDTREE_COMMON_H */
+#endif /* REP_KDTREE_COMMON_HPP */

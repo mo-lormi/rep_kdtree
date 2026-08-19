@@ -1,13 +1,13 @@
 
 //
-// last modified: 29.05.26
+// last modified: 19.08.26
 //
 
 //--
 
 
-#ifndef REP_KDTREE_DEBUGGING_H
-#define REP_KDTREE_DEBUGGING_H
+#ifndef REP_KDTREE_DEBUGGING_HPP
+#define REP_KDTREE_DEBUGGING_HPP
 
 
 #define DEBUG1
@@ -19,4 +19,4 @@
 #undef DEBUG_IO
 
 
-#endif /* REP_KDTREE_DEBUGGING_H */
+#endif /* REP_KDTREE_DEBUGGING_HPP */

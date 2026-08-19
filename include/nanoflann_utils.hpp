@@ -27,13 +27,13 @@
  *************************************************************************/
 
 //
-// last modified: 28.05.26
+// last modified: 19.08.26
 //
 
 //--
 
-#ifndef NANOFLANN_UTILS_H
-#define NANOFLANN_UTILS_H
+#ifndef NANOFLANN_UTILS_HPP
+#define NANOFLANN_UTILS_HPP
 
 
 #include <vector>
@@ -104,4 +104,4 @@ void generateRandomPointCloud(
 }
 
 
-#endif /* NANOFLANN_UTILS_H */
+#endif /* NANOFLANN_UTILS_HPP */
