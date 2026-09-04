@@ -26,11 +26,6 @@ $ cmake --build .
 ```
 
 ```bash
-$ cd <root_dir>/rep_kdtree/build
-$ make install
-```
-
-```bash
 $ cd <root_dir>/rep_kdtree/bin
 $ source setup_env_sw_dev.sh
 ```
